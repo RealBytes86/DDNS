@@ -2,7 +2,7 @@ import requests
 import socket
 import time
 
-def update_dns(username, password, hostname, secondRequest) -> None:
+def update_ddns_no_ip_com(username, password, hostname, secondRequest) -> None:
     
     myip = None
     old_ip = None
@@ -35,4 +35,4 @@ def update_dns(username, password, hostname, secondRequest) -> None:
         time.sleep(secondRequest)
         continue
 
-update_dns(username="", password="", hostname="", secondRequest=3)
+update_ddns_no_ip_com(username="", password="", hostname="", secondRequest=3)
