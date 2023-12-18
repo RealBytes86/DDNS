@@ -35,4 +35,9 @@ def update_ddns_no_ip_com(username, password, hostname, secondRequest) -> None:
         time.sleep(secondRequest)
         continue
 
+#username: admin
+#password: admin
+#hostname: your ddns domain
+#secordRequest: Your request timer
+
 update_ddns_no_ip_com(username="", password="", hostname="", secondRequest=3)
